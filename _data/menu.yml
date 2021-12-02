@@ -16,7 +16,7 @@ entries:
     #  show_more_text: See archive...
    #   show_more_url: archive.html
 
-  - title: 문학
+  - title: 소설/시
     post_list:
       category: moonhak
       show_more: true
@@ -30,7 +30,7 @@ entries:
       show_more_text: See more posts...
       show_more_url: archive.html
 
-  - title: 비평
+  - title: 영상
     post_list:
       category: bipyeong
       show_more: true
