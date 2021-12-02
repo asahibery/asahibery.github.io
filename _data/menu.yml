@@ -32,7 +32,7 @@ entries:
 
   - title: 영상
     post_list:
-      category: moving
+      category: moving 
       show_more: true
       show_more_text: See more posts...
       show_more_url: index.html
