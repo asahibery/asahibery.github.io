@@ -30,6 +30,12 @@ entries:
       show_more_text: See more posts...
       show_more_url: archive.html
 
+  - title: 비평
+    post_list:
+      category: bipyeong
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: index.html
 
   #- title: rss
   #  url: feed.xml
