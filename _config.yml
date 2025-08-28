@@ -1,16 +1,12 @@
-# 사이트 기본 정보
 title: 윤은경 포트폴리오
 author: asahibery
 email: zz090788@icloud.com
 url: https://asahibery.github.io
 baseurl: ""
-
-# 사이트 설명 (들여쓰기 주의!)
 description: >
   영상과 미술을 다루는 인터미디어 아티스트
 
-# 테마 사용하지 않음
-# theme: jekyll-theme-cayman  # 필요하면 주석 해제 후 사용 가능
+# 테마 제거
+# theme: jekyll-theme-primer
 
-# GitHub Pages 빌드용 설정
 markdown: kramdown
