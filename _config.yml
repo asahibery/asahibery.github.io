@@ -1,26 +1,28 @@
-title: 아니야 # name of the site
-author: asahibery # name of site's author
-email: zz090788@icloud.com # email of site's author
-url: https://asahibery.github.io # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>윤은경 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- 구글 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>윤은경</h1>
+    <p>영상 / 미술 / 인터미디어 아트</p>
+  </header>
 
-permalink: /:slug.html
+  <section id="projects">
+    <h2>작업물</h2>
+    <ul>
+      <li><a href="projects/project1.html">Project 1</a></li>
+      <li><a href="projects/project2.html">Project 2</a></li>
+    </ul>
+  </section>
 
-favicon: "jet.gif" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
-
-theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
-
-theme_config:
-  appearance: "light" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%c" # customize how date is formatted
-  show_description: false # show blog description in home page
-
-sass:
-  style: :compressed
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  <footer>
+    <p>Contact: zz090788@icloud.com</p>
+  </footer>
+</body>
+</html>
